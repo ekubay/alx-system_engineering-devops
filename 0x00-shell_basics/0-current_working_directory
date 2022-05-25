@@ -1,2 +1,2 @@
 #!/bin/bash
-dlink -m FILE
+path='readlink -f "${BASH_SOURCE:-$0}"'
